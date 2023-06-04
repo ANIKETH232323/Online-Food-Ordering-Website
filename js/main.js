@@ -17,7 +17,6 @@ Array.from(scrollLink).map((link) => {
   link.addEventListener("click", (e) => {
     // Prevent Default
     e.preventDefault();
-
     const id = e.currentTarget.getAttribute("href").slice(1);
     const element = document.getElementById(id);
     let position = element.offsetTop - 90;
