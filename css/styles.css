@@ -457,7 +457,7 @@ section.app .content .links img {
   align-items: center;
   justify-content: center;
   padding: 1.5rem 0;
-  background-color: var(--deep-yellow);
+  background-color: #dc143c;
 }
 
 .footer .top .content p {
