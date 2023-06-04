@@ -49,6 +49,7 @@ scrollTop.addEventListener("click", () => {
     behavior: "smooth",
   });
 });
+
 window.addEventListener("scroll", (e) => {
   const scrollHeight = window.pageYOffset;
 
