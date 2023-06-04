@@ -442,7 +442,7 @@ section.app .content .links img {
   background-color: var(--footer-yellow);
   padding: 10rem 9%;
   display: grid;
-  background-color: #c7e292;
+  background-color: #ddf4af;
   grid-template-columns: 1fr 2fr;
 }
 
