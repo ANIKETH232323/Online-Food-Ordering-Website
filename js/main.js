@@ -16,6 +16,7 @@ const scrollLink = document.querySelectorAll(".navbar a:not(:last-child)");
 Array.from(scrollLink).map((link) => {
   link.addEventListener("click", (e) => {
     // Prevent Default
+    
     e.preventDefault();
     const id = e.currentTarget.getAttribute("href").slice(1);
     const element = document.getElementById(id);
