@@ -95,6 +95,7 @@ section {
 .btn {
   display: inline-block;
   color: var(--yellow);
+  font-weight: bold;
   background-color: var(--btn-yellow);
   padding: 1rem;
   border-radius: 0.5rem;
